@@ -1,0 +1,73 @@
+<html>
+    <body bgcolor="cyan">
+        <h1 align="center"><font face="algerian" >PSK TECHNOLOGIES IT SERVICES</font>
+            
+        </h1>
+        <center>
+            <script type="text/javascript">
+                var d = new Date();
+                var day = d.getDay();
+                switch(day)
+                {
+                        case 1:
+                        document.write("Monday");
+                        break;
+                        case 2:
+                        document.write("TUESDAY");
+                        break;
+                        case 3:
+                        document.write("WEDNESDAY");
+                        break;  
+                        case 4:
+                        document.write("THURSDAY");
+                        break;
+                        case 5:
+                        document.write("FRIDAY");
+                        break;
+                        case 6:
+                        document.write("SATUDAY");
+                        break;
+                        case 0:
+                        document.write("SUNDAY");
+                        break;      
+                }
+            </script>
+        </center>
+        <center>
+            <script type="text/javascript">
+                var d =new Date();
+                var time = d.getHours();
+                if(time<=10){
+                    document.write("Good Morning");
+                }
+                else if(time > 10 && time < 16){
+                    document.write("Good Afternoon");
+                }
+                else if(time >= 16 && time <= 20){
+                    document.write("Good Evening");
+                }
+                else{
+                    document.write("Good Night");
+                }
+            </script>
+        </center>
+    <br><br><br>
+    <h2 align="center"><font>Attendance Portal</font></h2>
+    <form action="">
+        <table align="center">
+            <tr>
+                <td> <a href="studentlogin.html"> <input type="button" name="student" value="STUDENT"> </td></a>
+                <td><a href="trainerlogin.html"> <input type="button" name="trainer" value="TRAINER"> </td></a>
+                <td><a href="employeelogin.html"><input type="button" name="emplpyee" value="EMPLOYEE"> </td></a> 
+                
+            </tr>
+            <tr>
+                <td><a href="studentsignup.html"><input type="button" name="signup" value="SIGN UP" ></td></a>
+                <td><a href="trainersignup.html"><input type="button" name="signup" value="SIGN UP"></td></a>
+                <td><a href="employeesignup.html"><input type="button" name="signup" value="SIGN UP"></td></a>
+                
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
